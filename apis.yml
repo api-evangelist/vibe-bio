@@ -1,8 +1,24 @@
 aid: vibe-bio
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/vibe-bio.png
 name: Vibe Bio
-description: 'Vibe Bio is a company surfaced as a portfolio company of initialized-capital and added to
-  the API Evangelist network as a stub for enrichment. Sector: crypto. This profile is a lead awaiting
-  the enrichment pipeline.'
+description: 'Vibe Bio is a biopharma AI company whose VibeOne platform provides AI decision
+  infrastructure for business development and licensing teams, accelerating therapeutic asset
+  diligence by turning unstructured scientific and clinical data into decision-ready outputs
+  across a source, prioritize, evaluate, and decide workflow. The company also operates a
+  venture fund backing founders developing cures for rare and overlooked diseases. VibeOne is
+  offered as a demo-request enterprise SaaS product; no public API or developer platform is
+  published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/vibe-bio/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -12,10 +28,16 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-21'
 tags:
 - Company
-- Crypto
+- Biopharma
+- Artificial Intelligence
+- Drug Discovery
+- Business Development
+- Life Sciences
+- Rare Disease
+- Venture Fund
 apis: []
 maintainers:
 - FN: Kin Lane
@@ -23,5 +45,20 @@ maintainers:
 - FN: APIs.json
   email: info@apis.io
 common:
+- type: DomainSecurity
+  url: security/vibe-bio-domain-security.yml
 - type: Website
   url: https://vibebio.com/
+- type: Blog
+  url: https://vibebio.com/blog/
+- type: Support
+  url: https://vibebio.com/contact-us/
+- type: TermsOfService
+  url: https://vibebio.com/terms-and-conditions/
+- type: PrivacyPolicy
+  url: https://vibebio.com/privacy-policy/
+x-enrichment:
+  date: '2026-07-21'
+  status: minimal
+  artifacts_added: 1
+  pass: local-v1
