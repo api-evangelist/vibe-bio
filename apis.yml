@@ -31,6 +31,9 @@ description: 'Vibe Bio is a biopharma AI company whose VibeOne platform provides
   offered as a demo-request enterprise SaaS product; no public API or developer platform is
   published at this time.'
 url: https://raw.githubusercontent.com/api-evangelist/vibe-bio/refs/heads/main/apis.yml
+x-api-posture: no-product-api
+x-api-posture-basis: observed
+x-api-posture-note: "VibeOne is offered as a demo-request enterprise SaaS product; no public API or developer platform is published at this time."
 x-type: company
 x-source: vc-portfolio
 x-backed-by:
